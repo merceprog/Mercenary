@@ -1,5 +1,5 @@
 <?php
-  $con = mysql_connect("localhost,id902836_mercenary,02242017,id902836_mercenary");
+  $con = mysql_connect("files.000webhost.com,id902836_mercenary,02242017,id902836_mercenary");
   
   $email = $_POST["email"];
   $password = $_POST["password"];
