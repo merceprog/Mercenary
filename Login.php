@@ -8,7 +8,7 @@
   mysqli_stmt_bind_param($statement, "ss", $email, $password);
   mysqli_stmt_execute($statement);
   
-  mysqli_stmt_store_result($statement(;
+  mysqli_stmt_store_result($statement);
   mysqli_stmt_blind_result($statement, $userID, $firstname, $lastname, $email, $password, $contact );
   
   $response = array();
